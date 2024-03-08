@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2a08ba2ecde46de8153150946937af7)](https://app.codacy.com/gh/codacy-security/rust-goat?utm_source=github.com&utm_medium=referral&utm_content=codacy-security/rust-goat&utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.com/stefan-prokop-cz/api-goat.svg?branch=master)](https://travis-ci.com/stefan-prokop-cz/api-goat)
 
 # API Goat
