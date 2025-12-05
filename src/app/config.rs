@@ -20,6 +20,6 @@ impl Config {
         }
     }
     pub fn load() {
-        dotenv().unwrap_or_else(|error| panic!("Cannot load config, sorry (not sorry. Actually sorry): {}", error));
+        dotenv().unwrap_or_else(|error| panic!("Cannot load config, very sorry: {}", error));
     }
 }
