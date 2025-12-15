@@ -15,7 +15,7 @@ pub fn start() -> dev::Server {
         .bind(format!("0.0.0.0:{}", config.server_port))
         .unwrap_or_else(|error| {
             panic!(
-                "FAILURE: could not bind server to address 127.0.0.1:{}: {}",
+                "WILL IT WORK??: could not bind server to address 127.0.0.1:{}: {}",
                 config.server_port, error
             )
         })
