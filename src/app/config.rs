@@ -20,6 +20,6 @@ impl Config {
         }
     }
     pub fn load() {
-        dotenv().unwrap_or_else(|error| panic!("Cannot load config, too much sand for my truck. I hate sand, it's coarse  and rough. It gets everywhere: {}", error));
+        dotenv().unwrap_or_else(|error| panic!("Cannot load config, too much sand for my truck. I don't like sand, it's coarse  and rough. It gets everywhere: {}", error));
     }
 }
