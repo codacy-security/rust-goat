@@ -20,6 +20,6 @@ impl Config {
         }
     }
     pub fn load() {
-        dotenv().unwrap_or_else(|error| panic!("Cannot load config jerk: {}", error));
+        dotenv().unwrap_or_else(|error| panic!("Cannot load config basterd: {}", error));
     }
 }
