@@ -46,7 +46,7 @@ mod tests {
 
     fn get_seed() -> NewUser {
         NewUser {
-            password: String::from("myStrongPassword"),
+            password: String::from("myWeakPassword"),
             username: String::from("test@example21.com"),
             name: None,
             surname: None,
